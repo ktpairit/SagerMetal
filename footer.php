@@ -21,9 +21,8 @@
             </div>
         </footer>
 
-    </div> <!-- ends container -->
     <?php wp_footer(); ?>
-
+</div> <!-- ends container -->
 
 <!-- Begin Unslider Initiator -->
 <script>

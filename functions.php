@@ -12,6 +12,15 @@ function blank_widgets_init() {
         'after_title' => '</h3>'
     ));
         register_sidebar( array(
+        'name' => 'Main Summary Sidebar',
+        'id' => 'main-sidebar-sidebar',
+        'description' => 'Widget for main summary on front page',
+        'before_widget' => '<div class="widget-sidebar widget-frontpage">',
+        'after_widget' => '</div>',
+        'before_title' => '<h1>',
+        'after_title' => '</h1>'
+    ));
+        register_sidebar( array(
         'name' => 'Left Sager Solution',
         'id' => 'left-sager-sidebar',
         'description' => 'Widget for front page left sidebar for Sager Metal Solution',

@@ -39,12 +39,26 @@ body {
     /*max-width: 1100px;*/
     margin: auto;
     width: 100%;
-    /*
-        -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+}
+.container {
+    border-left: #d1d1d1 1px solid;
+    border-right: #d1d1d1 1px solid;
+    -webkit-box-shadow: 0px 0px 2px 0px #d1d1d1
+    -moz-box-shadow: 0px 0px 2px 0px #d1d1d1;
+    box-shadow: 0px 0px 2px 0px #d1d1d1;
     */
 }
+/*
+.wrapper1, .wrapper2, .wrapper6 {
+    background-color: #303030;
+}
+.wrapper3 {
+    background-color: #f4f4f4;
+}
+.wrapper4 {
+    background-color: #6f6f6f;
+}
+*/
 
 header {
     background-color: #303030;
@@ -53,36 +67,58 @@ header {
 }
 
 /* .text-align is for the header 'phone number' and 'Order a Part' */
-.textwidget {
+/*.textwidget {
     color: #f1f1f1;
     list-style-type: none;
     padding: 20px 0;
     text-align: right;
-}
+}*/
 
 .frontPageHeader {
     text-align: right;
+    padding: 10px 0;
 }
 .customConveyors {
+    background-color: #f4f4f4;
     text-align: center;
     padding: 50px 15%;
 }
-.customConveyors button {
-    border: 1px solid #ca0000;
+.customConveyors p {
+    line-height: 1.5em;
 }
-.customConveyors button a {
+.solutions {
+    text-align: center;
+    padding: 80px 90px;
+    background-color: #e3e3e3;
+}
+.solutions h2 {
+}
+.solutions img {
+    padding: 10px 0 20px 0;
+}
+.solutions p {
+    line-height: 1.4em;
+    padding: 0px 35px;
+}
+button {
+    border: 1px solid #ca0000;
+    text-align: center;
+}
+button a {
     color: #ca0000;
     font-weight: 500;
     font-size: 1.2em;
 }
-.customConveyors button:hover {
+button:hover {
     background-color: rgba(202, 0, 0, .9);
 }
-.customConveyors button a:hover {
+button a:hover {
     color: #e2e2e2;
     font-weight: 500;
 }
-
+.lists {
+    display: inline-flex;
+}
 /*--Beginning of Inline Menu for Header.php--*/
 /* .headerImg {
     width: 100%;
@@ -119,7 +155,33 @@ span.orderPart {
 .blank-menu-header ul li a:hover {
     color: #ca0000;
 }
-
+.sagerSolutionsHeader {
+    color: #ca0000;
+}
+.sagerSolutionsDescription {
+    color: #6f6f6f;
+}
+.worldDiv {
+    background-color: #f4f4f4;
+    padding: 40px 30px;
+}
+.worldDiv h2 {
+    text-align: center;
+}
+.worldWords {
+    padding: 40px 10px;
+}
+.worldWords p {
+    color: #6f6f6f;
+    text-align: left;
+}
+.list1, .list2, .list3 {
+    color: #6f6f6f;
+    padding: 0 30px;
+}
+.lists li {
+    font-weight: 300;
+}
 /*--Below is to get the header verbiage to float on top of headerImg-*/
 /*
 .headerDiv {
@@ -266,11 +328,13 @@ footer {
     background-color: #303030;
     padding: 70px 80px 15px 30px;
     text-align: center;
+    color: #f1f1f1;
+    list-style-type: none;
 }
 .footerHeader {
     color: #ca0000;
     font-weight: 100;
-    text-align: right;
+    text-align: center;
 }
 .footerHeader h5 {
     font-weight: 100;
