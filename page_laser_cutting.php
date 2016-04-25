@@ -1,6 +1,13 @@
+<?php
+
+/*
+Template Name: Metal Laser Cutting
+*/
+?>
+
+
 <?php get_header(); ?>
 
-<div class="main">
     <div class="row">
         <div class="twelve columns mainPic">
             <div class="my-slider" dir="rtl">
@@ -31,31 +38,5 @@
             </div>
         </div>
 
-        <div class="row solutions">
-            <div class="four columns">
-                <?php dynamic_sidebar('left-sager-sidebar'); ?>
-            </div>
-            <div class="four columns">
-                <?php dynamic_sidebar('middle-sager-sidebar'); ?>
-            </div>
-            <div class="four columns">
-                <?php dynamic_sidebar('right-sager-sidebar'); ?>
-            </div>
-        </div>
-
-        <div class="row worldDiv">
-            <div class="six columns">
-                <?php dynamic_sidebar('sager-world-image'); ?>
-            </div>
-            <div class="six columns worldWords">
-                <?php dynamic_sidebar('sager-world'); ?>
-            </div>
-        </div>
-</div>
 
 
-
-
-</div> <!--End of Main section-->
-
-<?php get_footer(); ?>

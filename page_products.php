@@ -1,3 +1,11 @@
+<?php
+
+/*
+Template Name: Products
+*/
+?>
+
+
 <?php get_header(); ?>
 
     <section class="row">

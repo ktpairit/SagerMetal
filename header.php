@@ -11,12 +11,11 @@
 </head>
 
 <body>
-
     <div class="container">
         <!--Beginning of Header-->
         <header class="row">
             <div class="four columns">
-                <img src="<?php echo get_template_directory_uri (); ?>/img/SagerLogo96.png" width="175">
+                <a href="http://www.kpvisualdesigns.com/sager/"><img src="<?php echo get_template_directory_uri (); ?>/img/SagerLogo96.png" width="170"></a>
             </div>
             <!-- Add Menu Here -->
             <div class="eight columns frontPageHeader">
@@ -28,6 +27,7 @@
                     'container_class' => 'blank-menu-header'
                 ));?>
             </div>
+
 
 <!----------
             <div class="row headerDiv">

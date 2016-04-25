@@ -1,7 +1,7 @@
     <!-- BEGINNING OF FOOTER - END SECTION CONTENT -->
         <footer>
             <div class="row">
-                <div class="two columns footerHeader">
+                <div class="three columns footerHeader">
                     <?php dynamic_sidebar('footer-left'); ?>
                 </div>
                 <div class="three columns">
@@ -10,7 +10,7 @@
                 <div class="three columns">
                     <?php dynamic_sidebar('footer-middle-right'); ?>
                 </div>
-                <div class="four columns footerLogo">
+                <div class="three columns footerLogo">
                     <?php dynamic_sidebar('footer-right'); ?>
                 </div>
             </div>

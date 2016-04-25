@@ -239,11 +239,24 @@ input[type="search"] {
     margin: 20px 0px 50px;
     overflow: hidden;
 }
+
+.bold1 {
+    border-top: solid 5px #ca0000;
+    font-weight: 400;
+    padding-top: 40px;
+    margin-top: 10px;
+}
+
+span.bold {
+    font-weight: 400;
+}
 .postVerbiage {
-    padding: 40px 30px 40px 15px;
+    padding: 60px 60px 60px 100px;
+    font-size: 1.3em;
 }
 .postVerbiage h3 {
-    color: #D741A7; /*-- #D741A7; Bright Pink #D741A7;--*/
+    color: #ca0000;
+    font-size: 3em;
 }
 .postVerbiage h3 a {
     color: #D741A7; /*-- #D741A7; Bright Pink #D741A7;--*/

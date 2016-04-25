@@ -1,3 +1,11 @@
+<?php
+
+/*
+Template Name: Recent News
+*/
+?>
+
+
 <?php get_header(); ?>
 
     <section class="row">
