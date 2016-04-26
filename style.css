@@ -73,6 +73,17 @@ header {
     padding: 20px 0;
     text-align: right;
 }*/
+.companyPage {
+    padding-right: 30px;
+}
+.companySidebar {
+    margin-top: 30px;
+}
+.companySidebar img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .logo:hover {
     opacity: .7;
 }
@@ -273,7 +284,7 @@ span.bold {
     font-weight: 400;
 }
 .postVerbiage {
-    padding: 60px 60px 60px 100px;
+    padding: 50px 30px 60px 90px;
     font-size: 1.3em;
 }
 .postVerbiage h3 {
@@ -319,7 +330,7 @@ span.bold {
 
 /*--Beginning of Front Page Sidebar--*/
 .widget-pages, .widget-singles, .widget-archives {
-    background-color: #fff;
+    background-color: #cfcfcf;
     border: 1px solid #d1d1d1;
     border-radius: 2px;
     padding: 25px 20px;

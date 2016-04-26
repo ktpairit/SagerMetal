@@ -14,8 +14,9 @@ Template Name: Conveyor Systems
             <div class="my-slider" dir="rtl">
                 <ul>
                     <li><img src="<?php echo get_template_directory_uri (); ?>/img/mc1.png" width="1000"></li>
+                    <li><img src="<?php echo get_template_directory_uri (); ?>/img/ac2.png" width="1000"></li>
                     <li><img src="<?php echo get_template_directory_uri (); ?>/img/tc3.png" width="1000"></li>
-                    <!--<li></li>-->
+                    <li><img src="<?php echo get_template_directory_uri (); ?>/img/ac1.png" width="1000"></li>
                 </ul>
                             <!-- Third we include jQuery -->
             <script src="//code.jquery.com/jquery-latest.min.js"></script>

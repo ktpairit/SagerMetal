@@ -14,8 +14,10 @@ Template Name: Laser Cutting
         <div class="twelve columns mainPic">
             <div class="my-slider" dir="rtl">
                 <ul>
-                    <li><img src="<?php echo get_template_directory_uri (); ?>/img/mc1.png" width="1000"></li>
-                    <li><img src="<?php echo get_template_directory_uri (); ?>/img/tc3.png" width="1000"></li>
+                    <li><img src="<?php echo get_template_directory_uri (); ?>/img/l5.png" width="1000"></li>
+                    <li><img src="<?php echo get_template_directory_uri (); ?>/img/l3.png" width="1000"></li>
+                    <li><img src="<?php echo get_template_directory_uri (); ?>/img/mfab4.png" width="1000"></li>
+                    <li><img src="<?php echo get_template_directory_uri (); ?>/img/l2.png" width="1000"></li>
                     <!--<li></li>-->
                 </ul>
                             <!-- Third we include jQuery -->

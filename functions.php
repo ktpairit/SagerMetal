@@ -93,6 +93,15 @@ function blank_widgets_init() {
         'after_title' => '</h2>'
     ));
         register_sidebar( array(
+        'name' => 'Contact Form',
+        'id' => 'contact-form-sidebar',
+        'description' => 'Widget to create a contact form for Sager Metal product',
+        'before_widget' => '<div class="widget-sidebar widget-frontpage">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>'
+    ));
+        register_sidebar( array(
         'name' => 'Footer Left',
         'id' => 'footer-left',
         'description' => 'Widget for our left side of our footer',

@@ -6,8 +6,10 @@
             <div class="my-slider" dir="rtl">
                 <ul>
                     <li><img src="<?php echo get_template_directory_uri (); ?>/img/metalFab.png" width="1000"></li>
+                    <li><img src="<?php echo get_template_directory_uri (); ?>/img/tc3.png" width="1000"></li>
+                    <li><img src="<?php echo get_template_directory_uri (); ?>/img/l2.png" width="1000"></li>
+                    <li><img src="<?php echo get_template_directory_uri (); ?>/img/mc1.png" width="1000"></li>
                     <li><img src="<?php echo get_template_directory_uri (); ?>/img/welder.png" width="1000"></li>
-                    <!--<li></li>-->
                 </ul>
                             <!-- Third we include jQuery -->
             <script src="//code.jquery.com/jquery-latest.min.js"></script>

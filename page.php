@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
-    <section class="row">
-        <div class="nine columns postVerbiage">
+    <section class="row companyPage">
+        <div class="eight columns postVerbiage">
 <!-- BEGIN PAGE PHP -->
             <?php if (have_posts()) :
                 /* OUR DATA CONTEXT IS DEFINED  */
@@ -12,7 +12,7 @@
             endif; ?>
 <!-- END PAGE PHP -->
         </div>
-        <div class="three columns">
+        <div class="four columns companySidebar">
         <!-- BEGIN SIDEBAR -->
         <!-- Add Search Form -->
             <!-- <?php //      get_search_form(); ?> -->
