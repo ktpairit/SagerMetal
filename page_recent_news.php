@@ -6,8 +6,6 @@ Template Name: Recent News
 ?>
 
 
-<?php get_header(); ?>
-
     <section class="row">
         <div class="nine columns postVerbiage">
 <!-- BEGIN PAGE PHP -->

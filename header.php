@@ -14,11 +14,11 @@
     <div class="container">
         <!--Beginning of Header-->
         <header class="row">
-            <div class="four columns">
-                <a href="http://www.kpvisualdesigns.com/sager/"><img src="<?php echo get_template_directory_uri (); ?>/img/SagerLogo96.png" width="170"></a>
+            <div class="two columns">
+                <a href="http://www.kpvisualdesigns.com/sager/"><img src="<?php echo get_template_directory_uri (); ?>/img/SagerLogo96.png" width="170" class="logo"></a>
             </div>
             <!-- Add Menu Here -->
-            <div class="eight columns frontPageHeader">
+            <div class="ten columns frontPageHeader">
                 <?php dynamic_sidebar('phone-number-sidebar'); ?>
                 <?php get_search_form(); ?>
                 <?php wp_nav_menu(array(

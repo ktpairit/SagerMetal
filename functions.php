@@ -66,6 +66,33 @@ function blank_widgets_init() {
         'after_title' => '</h3>'
     ));
         register_sidebar( array(
+        'name' => 'Conveyor Solutions',
+        'id' => 'conveyor-systems-sidebar',
+        'description' => 'Widget for Conveyor systems page for Sager Metal products',
+        'before_widget' => '<div class="widget-sidebar widget-frontpage">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>'
+    ));
+        register_sidebar( array(
+        'name' => 'Metal Fabrication',
+        'id' => 'metal-fabrication-sidebar',
+        'description' => 'Widget for metal fabrication page for Sager Metal products',
+        'before_widget' => '<div class="widget-sidebar widget-frontpage">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>'
+    ));
+        register_sidebar( array(
+        'name' => 'Laser Cutting',
+        'id' => 'laser-cutting-sidebar',
+        'description' => 'Widget for laser cutting page for Sager Metal product',
+        'before_widget' => '<div class="widget-sidebar widget-frontpage">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>'
+    ));
+        register_sidebar( array(
         'name' => 'Footer Left',
         'id' => 'footer-left',
         'description' => 'Widget for our left side of our footer',

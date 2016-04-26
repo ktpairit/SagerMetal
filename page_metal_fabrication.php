@@ -8,12 +8,13 @@ Template Name: Metal Fabrication
 
 <?php get_header(); ?>
 
+<div class="main">
     <div class="row">
         <div class="twelve columns mainPic">
             <div class="my-slider" dir="rtl">
                 <ul>
-                    <li><img src="<?php echo get_template_directory_uri (); ?>/img/metalFab.png" width="1000"></li>
-                    <li><img src="<?php echo get_template_directory_uri (); ?>/img/welder.png" width="1000"></li>
+                    <li><img src="<?php echo get_template_directory_uri (); ?>/img/mc1.png" width="1000"></li>
+                    <li><img src="<?php echo get_template_directory_uri (); ?>/img/tc3.png" width="1000"></li>
                     <!--<li></li>-->
                 </ul>
                             <!-- Third we include jQuery -->
@@ -31,12 +32,17 @@ Template Name: Metal Fabrication
     </div>
 
 
-        <div class="row customConveyors">
+        <div class="row customConveyorsPage">
             <div class="twelve columns">
-                <?php dynamic_sidebar('main-sidebar-sidebar'); ?>
+                <?php dynamic_sidebar('metal-fabrication-sidebar'); ?>
                 <!-- <button type="button"><a href="<?php // the_permalink(); ?>">Read More</a></button> -->
             </div>
         </div>
+</div>
+
+
+ <?php get_footer(); ?>
+
 
 
 

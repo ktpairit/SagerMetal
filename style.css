@@ -73,7 +73,14 @@ header {
     padding: 20px 0;
     text-align: right;
 }*/
-
+.logo:hover {
+    opacity: .7;
+}
+.installation {
+background-color: #e1e1e1;
+padding: 0px 10% 5% 10%;
+margin: 20px -15% -40px -11%;
+}
 .frontPageHeader {
     text-align: right;
     padding: 10px 0;
@@ -85,6 +92,21 @@ header {
 }
 .customConveyors p {
     line-height: 1.5em;
+}
+.sagerSolutionsH2 {
+    color: #ca0000;
+    padding-top: 4%;
+}
+.sagerSolutionsH4 {
+    padding-top: 3%;
+}
+.customConveyorsPage {
+    background-color: #f6f6f6;
+    padding: 50px 13% 70px 10%;
+    text-align: left;
+}
+.customConveyorsPage li {
+    /* list-style-type: none; */
 }
 .solutions {
     text-align: center;
